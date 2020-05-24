@@ -46,7 +46,3 @@ If the device is not paired before, an alert will show up and tell you the paire
 ---
     `/path/to/BTAudioSwitch -toggleSwitch -devName="AirPods Pro"`
 Toggle the connection **OR** set as the audio device based on current device status.
-
-## Where to get?
-- Download the Unix Executable from code section.
-- Build on your own in Xcode.
