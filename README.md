@@ -30,19 +30,23 @@ Specify the device name, use `""` around the name if contains spaces
 
 ## Examples
 
-    `BTAudioSwitch -switchOnly -devName="MacBook Pro Speakers"`
+    `/path/to/BTAudioSwitch -switchOnly -devName="MacBook Pro Speakers"`
 Set `MacBook Pro Speakers` as the audio input/output device, if there's no input device has such name, then audio input device is not changed.
 
 If the device is not found, an alert will show up and tell you the available audio devices in your mac.
 ![](/screenshots/alert_audio.png)
 
 ---
-    `BTAudioSwitch -toggleOnly -devName="Bluetooth Keyboard"`
+    `/path/to/BTAudioSwitch -toggleOnly -devName="Bluetooth Keyboard"`
 Toggle the connection of `Bluetooth Keyboard`.
 
 If the device is not paired before, an alert will show up and tell you the paired Bluetooth devices in your mac.
 ![](/screenshots/alert_BT.png)
 
 ---
-    `BTAudioSwitch -toggleSwitch -devName="AirPods Pro"`
+    `/path/to/BTAudioSwitch -toggleSwitch -devName="AirPods Pro"`
 Toggle the connection **OR** set as the audio device based on current device status.
+
+## Where to get?
+- Download the Unix Executable from code section.
+- Build on your own in Xcode.
